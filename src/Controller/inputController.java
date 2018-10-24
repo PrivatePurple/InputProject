@@ -84,10 +84,12 @@ public class inputController
 	
 	public boolean validDouble(String example)
 			{
+		//Declares and initializes a boolean variable as false.
 				boolean isValid = false;
 			
 			try
 			{ 
+				//Tries to convert the text to an integer
 				Double.parseDouble(example);
 				isValid = true;
 			}
